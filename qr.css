@@ -13,7 +13,7 @@ body {
 }
 
 .color {
-    background-color: white; ! important 
+    background-color: white;
     width: 350px;
     margin:50px auto;
     border-radius: 10px ;
@@ -42,5 +42,6 @@ p {
     font-weight: 400;
 
 }
+
 
 
