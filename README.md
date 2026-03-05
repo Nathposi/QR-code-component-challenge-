@@ -31,7 +31,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 Hey I am a beginner in web development. After going to through tutorial hell I finally started understanding. I took a crash course in Scrimba by Kevin Powell.
 
-This challenge was awesome. It was the first one I didn't look at tutorials and AI for answers (99% of the time🤣).
+This challenge was awesome. It was the first one I didn't look at tutorials and AI for answers (99% of the time).
 
 I encountered some issues though;
 - First the background color of my div (.class) wasn't showing correctly. I later realized it was a browser issue (phoneix browser )
