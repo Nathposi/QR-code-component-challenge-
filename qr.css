@@ -1,47 +1,54 @@
-/*
-This challenge was awesome
-At first I made too many divs
-Also making those elemnts fit together like this was confusing, took trial and error
-So I can't really explain like a pro how I did it but I did this myself no ai
-I also learnt something new today border-radius to make rounder corners
-I haven't learnt responsive design and I just started learning flex box
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --h1: hsl(218, 44%, 22%);
+  --card: hsl(0, 0%, 100%);
+  --background: hsl(212, 45%, 89%);
+  --text: hsl(216, 15%, 48%);
+}
 
 body {
-    margin: 0;
-    background-color: hsl(212, 45%, 89%);
+background-color: var(--background);
+display: flex;
+justify-content: center;
+align-items: center;
+ min-height: 100vh;
 }
 
-.color {
-    background-color: white;
-    width: 350px;
-    margin:50px auto;
-    border-radius: 10px ;
-    font-family: 'Segoe UI';
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  max-width: 370px;
+  width: 90%;
+  background-color: var(--card);
+  gap:1rem;
 }
 
-img {
-    width: 300px;
-    margin: 24px auto;
-    margin-left: 24px;
-    border-radius: 7px;
+.card h1 {
+text-align: center;
+color: var(--h1);
+font-weight: 700;
+  font-size:1.7rem;
 }
 
-h1 {
-    color: hsl(218, 44%, 22%);
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    margin: 10px;
+.card p {
+  text-align: center;
+  color: var(--text);
+  font-weight: 400;
+  width: 70%;
+  align-self:center;
+  line-height:1.5;
+  margin-bottom: 2rem;
 }
 
-p {
-    font-size: 15px;
-    text-align: center;
-    padding-bottom: 35px;
-    font-weight: 400;
-
+.card img {
+  border-radius: 1rem;
+  max-width:350px;
+  width: 90%;
+  margin: 1rem auto;
 }
-
-
-
